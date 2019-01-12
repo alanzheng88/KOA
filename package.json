@@ -1,0 +1,28 @@
+{
+  "name": "koaex",
+  "version": "1.0.0",
+  "description": "Koa exercises",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanzheng88/KoaEx.git"
+  },
+  "author": "Alan Zheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanzheng88/KoaEx/issues"
+  },
+  "homepage": "https://github.com/alanzheng88/KoaEx#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-session": "^5.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
